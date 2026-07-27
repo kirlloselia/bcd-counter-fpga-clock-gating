@@ -44,11 +44,11 @@ Designed using the Quartus Prime Schematic Editor (Block Diagram/Schematic File)
 
 ```
 bcd-counter-fpga-clock-gating/
-├── Lab01.v               # Top-level (Quartus-generated RTL)
+├── bcd.v               # Top-level (Quartus-generated RTL)
 ├── bcd_counter.v         # BCD counter (Quartus-generated RTL)
 ├── clk_divider.v         # Parameterized clock divider
 ├── clk_gating.v          # Latch-based clock gate
 ├── d_latch.v             # D-latch primitive
 ├── seg_decoder.v         # 7-segment decoder
-└── Lab01_tb.v            # Testbench
+└── bcd_tb.v            # Testbench
 ```
